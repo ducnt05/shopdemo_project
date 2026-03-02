@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.top-bar {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(41, 38, 38);
+
+  align-items: center;
+  padding: 10px 0;
+}
+.top-left {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%;
+  gap: 20px;
+}
+.top-left p {
+  margin: 0;
+  color: rgb(225, 220, 220);
+  font-family: "Courier New", Courier, monospace;
+}
+.top-right {
+  display: flex;
+  flex-direction: row;
+  margin-left: 40%;
+  gap: 20px;
+}
+.top-right a {
+  text-decoration: none;
+  color: rgb(225, 220, 220);
+  font-family: "Courier New", Courier, monospace;
+}
+.top-right a:hover {
+  color: white;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 8px;
+  font-size: larger;
+  margin: 0;
+  border-bottom: 1px solid rgb(225, 218, 218);
+}
+.header .firt-name {
+  color: rgb(97, 226, 127);
+}
+.header .last-name {
+  color: rgb(67, 93, 222);
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  padding: 1% 0;
+}
+.navbar .navbar-left {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%;
+  gap: 20px;
+}
+.navbar .navbar-right {
+  display: flex;
+  flex-direction: row;
+  margin-left: 51%;
+  gap: 20px;
+}
+.navbar .navbar-left a,
+.navbar .navbar-right a {
+  font-weight: bolder;
+  text-decoration: none;
+  color: black;
+}
+.navbar .navbar-left a:hover,
+.navbar .navbar-right a:hover {
+  color: rgb(14, 140, 213);
+}
+.hero-banner {
+  height: 500px;
+  background:
+    url("https://bizweb.dktcdn.net/100/312/616/themes/877408/assets/slider_1.jpg?1753170340410")
+      center/cover,
+    no-repeat;
+  cursor: pointer;
+}
+.section-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+}
+.section-header h2 {
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+  padding: 1%;
+}
+.section-line {
+  width: 50px;
+  height: 2px;
+  background-color: black;
+}
+.product-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.product-image {
+  position: relative;
+}
+.product-card img {
+  width: 80%;
+  cursor: pointer;
+  opacity: 1;
+  transition: 0.3s;
+}
+.product-card h3 {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.buy-btn {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 40%;
+  opacity: 0;
+  transition: 0.3s;
+  cursor: pointer;
+  border: none;
+  padding: 10px 30px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(58, 51, 51);
+}
+.product-image:hover .buy-btn {
+  opacity: 1;
+}
+.product-image:hover img {
+  opacity: 0.5;
+}

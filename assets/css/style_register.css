@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.top-bar {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(41, 38, 38);
+
+  align-items: center;
+  padding: 10px 0;
+}
+.top-left {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%;
+  gap: 20px;
+}
+.top-left p {
+  margin: 0;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+}
+.top-right {
+  display: flex;
+  flex-direction: row;
+  margin-left: 40%;
+  gap: 20px;
+}
+.top-right a {
+  text-decoration: none;
+  color: rgb(225, 220, 220);
+  font-family: "Courier New", Courier, monospace;
+}
+.top-right a:hover {
+  color: rgb(234, 229, 229);
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 8px;
+  font-size: larger;
+  margin: 0;
+  border-bottom: 1px solid rgb(225, 218, 218);
+}
+.header .firt-name {
+  color: rgb(97, 226, 127);
+}
+.header .last-name {
+  color: rgb(67, 93, 222);
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  padding: 1% 0;
+}
+.navbar .navbar-left {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%;
+  gap: 20px;
+}
+.navbar .navbar-right {
+  display: flex;
+  flex-direction: row;
+  margin-left: 51%;
+  gap: 20px;
+}
+.navbar .navbar-left a,
+.navbar .navbar-right a {
+  font-weight: bolder;
+  text-decoration: none;
+  color: black;
+}
+.navbar .navbar-left a:hover,
+.navbar .navbar-right a:hover {
+  color: rgb(14, 140, 213);
+}
+.page-header {
+  padding-left: 5%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: rgb(247, 247, 247);
+}
+a {
+  text-decoration: none;
+}
+.page-header .breadcrumb-home {
+  color: black;
+}
+.page-header .breadcrumb-home:hover {
+  color: blue;
+}
+.page-header .breadcrumb-current {
+  color: blue;
+}
+.auth-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+}
+.auth-container {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2% 0;
+  background-color: rgb(238, 236, 236);
+}
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.auth-container h2 {
+  font-size: 50px;
+  font-family: "Courier New", Courier, monospace;
+  margin: 0;
+  padding: 5px;
+}
+.auth-container p {
+  margin: 0;
+  padding: 20px 0px;
+}
+.fb-gg {
+  display: flex;
+  flex-direction: row;
+}
+img {
+  width: 150px;
+  height: 50px;
+  padding: 0 5px;
+}
+input {
+  width: 300px;
+  height: 40px;
+  margin-top: 10px;
+  border: none;
+}
+button {
+  width: 300px;
+  height: 40px;
+  margin: 20px 0;
+  border: none;
+  background-color: rgb(81, 79, 79);
+  color: white;
+  cursor: pointer;
+}
+.auth-container a {
+  color: blue;
+}
+.auth-container a:hover {
+  color: black;
+}
