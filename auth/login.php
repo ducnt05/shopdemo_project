@@ -19,7 +19,7 @@
             <div class="top-right">
                 <a href="login.php">Đăng nhập</a>
                 <a href="register.php">Đăng ký</a>
-                <a href="">Liên hệ</a>
+                <a href="#">Liên hệ</a>
             </div>
         </div>
         <div class="header">
@@ -28,7 +28,7 @@
         </div>
         <div class="navbar">
             <div class="navbar-left">
-                <a href="../pages/index.php">TRANG CHỦ</a>
+                <a href="../index.php">TRANG CHỦ</a>
                 <a href="#">GIỚI THIỆU</a>
                 <a href="#">SẢN PHẨM<i class="fa-solid fa-chevron-down"></i></a>
                 <a href="#">LIÊN HỆ</a>
@@ -41,7 +41,7 @@
             </div>
         </div>
         <div class="page-header">
-            <a href="../pages/index.php" class="breadcrumb-home">Trang chủ</a>
+            <a href="../index.php" class="breadcrumb-home">Trang chủ</a>
             <i>></i>
             <a href="#" class="breadcrumb-current">Đăng nhập tài khoản</a>
         </div>
@@ -54,7 +54,7 @@
                     <input type="password" name="password" placeholder="Mật khẩu" required>
                     <button type="submit">Đăng nhập</button>
                 </form>
-                <a href="">Quên mật khẩu</a>
+                <a href="#">Quên mật khẩu</a>
                 <p>Hoặc đăng nhập bằng</p>
                 <div class="fb-gg">
                     <a href=""><img src="https://bizweb.dktcdn.net/assets/admin/images/login/fb-btn.svg" alt=""></a>

@@ -12,6 +12,11 @@ if (mysqli_num_rows($result) == 1) {
         $_SESSION["user_id"] = $user["id"];
         $_SESSION["user_name"] = $user["firstname"] . " " . $user["lastname"];
         header("Location: ../pages/index.php");
+        if ($user["role"] == "admin") {
+            header("Location: ../admin/dashboard.php");
+        } else {
+            header("Location: ../pages/index.php");
+        }
     } else {
         echo "Mật khẩu không đúng";
     }

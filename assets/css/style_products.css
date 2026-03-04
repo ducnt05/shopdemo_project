@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+}
+body {
+ 
+  margin: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid rgb(196, 193, 193);
+  padding: 0 100px;
+}
+header h1 {
+  color: rgb(2, 2, 104);
+  padding-right: 100px;
+  font-size: 30px;
+}
+header .nav {
+  display: flex;
+  flex-direction: row;
+  margin-left: 200px;
+  padding-left: auto;
+}
+header a {
+  text-decoration: none;
+  color: black;
+  margin-right: 20px;
+  font-size: 15px;
+  padding: 0 30px;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+}
+header a:hover {
+  color: rgb(2, 2, 115);
+}
+.page-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 100px;
+}
+.page-header h2 {
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  font-family: "Dancing Script", cursive;
+}
+.page-header button {
+  padding: 15px 30px;
+  background-color: rgb(3, 3, 118);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  font-family: "Times New Roman", Times, serif;
+  cursor: pointer;
+}
+.page-header button:hover {
+  background-color: rgb(1, 1, 88);
+}
+.table-card {
+  display: flex;
+  flex-direction: column;
+  margin: 0 100px;
+  border: 1px solid rgb(196, 193, 193);
+  border-radius: 10px;
+}
+.table-card .table-header {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  align-items: center;
+
+  border-bottom: 1px solid rgb(196, 193, 193);
+  color: rgb(1, 1, 88);
+  background-color: rgb(240, 240, 240);
+}
+.table-card .table-products {
+  display: flex;
+  flex-direction: column;
+}
+.table-card .table-row {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  align-items: center;
+  border-bottom: 1px solid rgb(196, 193, 193);
+}
+.table-row img {
+  width: 60px;
+  height: 80px;
+}
+.id {
+  width: 5%;
+}
+.img {
+  width: 10%;
+}
+.name {
+  width: 40%;
+}
+.price {
+  width: 10%;
+}
+.stock {
+  width: 5%;
+}
+.status {
+  width: 10%;
+}
+.action {
+  width: 20%;
+  gap: 5px;
+}
+.table-card span {
+  display: flex;
+  justify-content: center;
+}

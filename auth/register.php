@@ -19,7 +19,7 @@
             <div class="top-right">
                 <a href="login.php">Đăng nhập</a>
                 <a href="register.php">Đăng ký</a>
-                <a href="">Liên hệ</a>
+                <a href="#">Liên hệ</a>
             </div>
         </div>
         <div class="header">
@@ -28,7 +28,7 @@
         </div>
         <div class="navbar">
             <div class="navbar-left">
-                <a href="../pages/index.php">TRANG CHỦ</a>
+                <a href="../index.php">TRANG CHỦ</a>
                 <a href="#">GIỚI THIỆU</a>
                 <a href="#">SẢN PHẨM<i class="fa-solid fa-chevron-down"></i></a>
                 <a href="#">LIÊN HỆ</a>
@@ -41,7 +41,7 @@
             </div>
         </div>
         <div class="page-header">
-            <a href="../pages/index.php" class="breadcrumb-home">Trang chủ</a>
+            <a href="../index.php" class="breadcrumb-home">Trang chủ</a>
             <i>></i>
             <a href="#" class="breadcrumb-current">Đăng ký tài khoản</a>
         </div>

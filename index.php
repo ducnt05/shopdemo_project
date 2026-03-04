@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 
@@ -17,8 +17,8 @@
                 <p>Email: nduc82157@gmail.com</p>
             </div>
             <div class="top-right">
-                <a href="../auth/login.php">Đăng nhập</a>
-                <a href="../auth/register.php">Đăng ký</a>
+                <a href="auth/login.php">Đăng nhập</a>
+                <a href="auth/register.php">Đăng ký</a>
                 <a href="#">Liên hệ</a>
             </div>
         </div>
@@ -28,16 +28,16 @@
         </div>
         <div class="navbar">
             <div class="navbar-left">
-                <a href="">TRANG CHỦ</a>
-                <a href="">GIỚI THIỆU</a>
-                <a href="">SẢN PHẨM<i class="fa-solid fa-chevron-down"></i></a>
-                <a href="">LIÊN HỆ</a>
-                <a href="">TIN TỨC</a>
+                <a href="index.php">TRANG CHỦ</a>
+                <a href="#">GIỚI THIỆU</a>
+                <a href="#">SẢN PHẨM<i class="fa-solid fa-chevron-down"></i></a>
+                <a href="#">LIÊN HỆ</a>
+                <a href="#">TIN TỨC</a>
 
             </div>
             <div class="navbar-right">
-                <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
-                <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
             </div>
         </div>
         <div class="hero-banner">
