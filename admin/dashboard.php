@@ -17,6 +17,7 @@
             <button class="btn-products">Sản phẩm</button>
             <button>Đơn hàng</button>
             <button>Thông tin cá nhân</button>
+            <a href="../index.php"><i class="fa-solid fa-house"></i></a>
         </div>
 
         <div class="main-content"></div>

@@ -2,6 +2,10 @@
 * {
     box-sizing: border-box;
 }
+body {
+    margin: 0;
+    
+}
 .container {
     display: flex;
     flex-direction: row;
@@ -38,4 +42,18 @@
     text-align: left;
     border-radius: 10px;
     font-family: cursive;
+}
+.side-bar button:hover {
+    background-color: white;
+    color: #212a7d;
+}
+.side-bar a {
+display: flex;
+flex-direction: row;
+justify-content: center;
+margin: auto;
+}
+.side-bar a i {
+    color: white;
+    font-size: 24px;
 }

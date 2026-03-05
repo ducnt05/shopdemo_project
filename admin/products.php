@@ -15,10 +15,10 @@
             <h1>YOUR SHOP</h1>
             <div class="nav">
                 <a href="./dashboard.php">Dashboard</a>
-                <a href="">Sản phẩm</a>
-                <a href="">Đơn hàng</a>
-                <a href="">Khách hàng</a>
-                <a href="">Đăng xuất</a>
+                <a href="./products.php">Sản phẩm</a>
+                <a href="./orders.php">Đơn hàng</a>
+                <a href="./customers.php">Khách hàng</a>
+                <a href="../logout.php">Đăng xuất</a>
             </div>
 
         </header>
