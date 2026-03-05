@@ -14,7 +14,7 @@
         <header>
             <h1>YOUR SHOP</h1>
             <div class="nav">
-                <a href="">Dashboard</a>
+                <a href="./dashboard.php">Dashboard</a>
                 <a href="">Sản phẩm</a>
                 <a href="">Đơn hàng</a>
                 <a href="">Khách hàng</a>
@@ -58,7 +58,7 @@ while ($row = mysqli_fetch_assoc($result)) {
                     </span>
                     <span class="action">
                         <a href="edit.php?id=<?php echo $row["id"]; ?>">Sửa</a>
-                        <a href="delete.php?id=<?php echo $row["id"]; ?>">Xóa</a>
+                        <a href="process_delete_product.php?id=<?php echo $row["id"]; ?>">Xóa</a>
                     </span>
                 </div>
                 <?php

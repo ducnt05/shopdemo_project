@@ -11,7 +11,7 @@
 <body>
     <div class="container">
         <h1>Thêm sản phẩm mới</h1>
-        <form action="../auth/process_product_add.php" method="post">
+        <form action="../auth/process_product_add.php" method="post" enctype="multipart/form-data">
             <div class="form-top">
                 <label for="name">Tên sản phẩm:</label>
                 <input type="text" name="name" placeholder="Nhập tên sản phẩm">
